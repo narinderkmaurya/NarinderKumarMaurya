@@ -9,7 +9,7 @@ import { motion } from 'framer-motion';
 import Footer from '@/components/Footer';
 export default function Home() {
   return (
-    <div className='px-4'>
+    <div className='px-4 overflow-hidden'>
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
