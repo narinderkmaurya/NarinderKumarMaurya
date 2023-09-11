@@ -71,6 +71,8 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
     },
+  },animation: {
+    shake: 'shake 0.5s ease-in-out infinite',
   },
   plugins: [require("tailwindcss-animate")],
 }

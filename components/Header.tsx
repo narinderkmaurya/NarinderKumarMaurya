@@ -4,9 +4,38 @@ import profile from "@/public/profile.jpg";
 import { Button } from './ui/button';
 import { MapPin } from 'lucide-react';
 import Link from 'next/link';
+import { motion } from 'framer-motion';
+
+const headerVariants = {
+    hidden: {
+      y: "-100vw",
+      opacity: 0,
+    },
+    visible: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        duration: 3, // You can adjust the duration according to your needs
+      },
+    },
+    exit: {
+      y: "100vw",
+      opacity: 0,
+      transition: {
+        ease: "easeInOut",
+      },
+    },
+  };
+
 
 const Header = () => {
     return (
+        <motion.div className='header'
+        variants={headerVariants}
+        initial="hidden"
+        animate="visible"
+        exit="exit"
+      >
         <div className='sm:px-32 py-6 sm:py-20 '>
 
             <div className='grid grid-cols-1 sm:grid-cols-3  gap-4'>
@@ -33,12 +62,13 @@ const Header = () => {
                             </p>
                         </div>
                         <div className='pt-10'>
-                            <Button><Link href="https://rebrand.ly/narinderkmaurya">Resume</Link></Button>
+                            <Button variant="outline"><Link href="https://rebrand.ly/narinderkmaurya">Resume</Link></Button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        </motion.div>
     )
 }
 

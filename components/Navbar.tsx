@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div>
       <div className='w-full items-center flex flex-row justify-between sm:px-32 pt-4 '>
-        <h1 className='items-center flex flex-row gap-3 text-xl'> narinderkmaurya. </h1>
+        <h1 className='items-center font-semibold flex flex-row gap-3 text-xl'> narinderkmaurya. </h1>
         <div className="flex items-center gap-4">
           <ModeToggle />
           {/* Mobile Menu Toggle */}
