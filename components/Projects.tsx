@@ -13,7 +13,7 @@ const Projects = () => {
         <div>
             <div id='projects' className='px-4 md:px-32 grid grid-cols-1 md:grid-cols-4 py-4 md:py-20 gap-4'>
                 <div className='col-span-1 md:col-span-1 hidden lg:block'>
-                    <h1 className='text-2xl md:text-3xl dark:text-sky-500 font-semibold pt-4'>Let's Connect</h1>
+                    <h1 className='text-2xl md:text-3xl dark:text-sky-500 font-semibold pt-4'>Let&apos;s Connect</h1>
                     <div className='pt-4 dark:text-muted-foreground gap-2 flex flex-col'>
                         <div className=' flex flex-row gap-2 items-center text-lg  text-gray-700 dark:text-gray-300 '><Github /><Link className='hover:text-sky-600' href="https://github.com/narinderkmaurya">@narinderkmaurya</Link></div>
                         <div className=' flex flex-row gap-2 items-center text-lg  text-gray-700 dark:text-gray-300 '><Send /><Link className='hover:text-sky-600' href="https://t.me/narinderkmaurya">@narinderkmaurya</Link></div>
@@ -43,7 +43,7 @@ const Projects = () => {
                             data-aos-delay="50"
                             data-aos-duration="2000" className='col-span-1  rounded-md bg-gray-400/20 dark:bg-gray-300/10 px-4 py-4'>
                             <h1 className=' font-semibold text-2xl flex flex-row justify-between'> IEEE-23-Conference  <Button variant="outline"><Link href="https://github.com/narinderkmaurya/IEEE-23-Conference" >View</Link></Button></h1>
-                            <p className='pt-2 dark:text-muted-foreground pb-4'> IEEE WCONF'23, IEEE World Conference on Communication & Computing , created this website for NITJ.</p>
+                            <p className='pt-2 dark:text-muted-foreground pb-4'> IEEE WCONF&apos;23, IEEE World Conference on Communication & Computing , created this website for NITJ.</p>
 
                         </div>
                         <div data-aos="fade-up"
