@@ -7,8 +7,8 @@ import { ThemeProvider } from "@/components/theme-provider"
 const manrope = Manrope({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Narinder Maurya',
-  description: 'Portolio of Narinder Kumar Mauyra, ECE at NITJ, Punjab, India.',
+  title: 'Narinder Maurya - Portfolio',
+  description: 'Narinder Maurya Portfolio Page/ Personal Website',
 }
 
 export default function RootLayout({
@@ -18,6 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head></head>
       <body className={manrope.className}> <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
             {children}
           </ThemeProvider></body>
