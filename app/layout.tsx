@@ -4,6 +4,8 @@ import { Manrope } from 'next/font/google'
 
 import { ThemeProvider } from "@/components/theme-provider"
 
+import { Analytics } from '@vercel/analytics/react';
+
 const manrope = Manrope({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -21,6 +23,7 @@ export default function RootLayout({
       <head></head>
       <body className={manrope.className}> <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
             {children}
+            <Analytics />
           </ThemeProvider></body>
     </html>
   )
