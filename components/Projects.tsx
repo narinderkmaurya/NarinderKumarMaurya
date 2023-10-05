@@ -54,6 +54,14 @@ const Projects = () => {
                             <p className='pt-2 dark:text-muted-foreground pb-4'>A simple text to morse code converter. This website converts basic english language text into morse code and can also decrypt the code back into a readable text form. There is also a custom feature involved with encrypts the text into emojis and vice versa.</p>
 
                         </div>
+                        <div data-aos="fade-up"
+                            data-aos-offset="200"
+                            data-aos-delay="50"
+                            data-aos-duration="2000" className='col-span-1  rounded-md bg-gray-400/20 dark:bg-gray-300/10 px-4 py-4'>
+                            <h1 className=' font-semibold text-2xl flex flex-row justify-between'> UFC | Universal File Converter  <Button variant="outline"><Link href="https://ufileconverter.vercel.app" >View</Link></Button></h1>
+                            <p className='pt-2 dark:text-muted-foreground pb-4'>  Universal File Converter: Free and user-friendly online tool for easy file conversion. Supports formats for images, audio, and videos for unlimited times. Made with Next.js, Tailwind CSS, FFmpeg & Shadcn-UI.</p>
+
+                        </div>
 
                     </div>
                     <div>

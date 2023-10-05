@@ -20,7 +20,7 @@ const Skills = () => {
     data-aos-duration="2000" className='md:col-span-1 rounded-md bg-gray-400/20 dark:bg-gray-300/10  p-4'>
         <h1 className='text-3xl font-semibold dark:text-sky-500 '>Skills</h1>
         <p className='tracking-wider text-lg leading-relaxed pt-2'>
-          HTML / CSS / JS / React / Next.js / Node.js / Express.js / Tailwind CSS / MUI / TypeScript / Figma
+          HTML / CSS / JS / React / Next.js / Node.js / Express.js / Tailwind CSS / MUI / TypeScript / Figma / C++ / DSA
         </p>
       </div>
     </div>
