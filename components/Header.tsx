@@ -62,7 +62,7 @@ const Header = () => {
                             </p>
                         </div>
                         <div className='pt-10'>
-                            <Button variant="outline"><Link href="https://rebrand.ly/narinderkmaurya">Resume</Link></Button>
+                            <Button variant="outline"><Link href="https://rebrand.ly/narinderkmaurya">See My Resume</Link></Button>
                         </div>
                     </div>
                 </div>

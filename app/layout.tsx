@@ -10,7 +10,7 @@ const manrope = Manrope({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Narinder Maurya - Portfolio',
-  description: 'Narinder Maurya Portfolio Page/ Personal Website',
+  description: 'Narinder Maurya ECE student at NITJ, Jalandhar Punjab. Seasonal Web Developer | DSA | UI/UX Desinger.Ready to collarab on any kind of software projects.',
 }
 
 export default function RootLayout({

@@ -62,6 +62,14 @@ const Projects = () => {
                             <p className='pt-2 dark:text-muted-foreground pb-4'>  Universal File Converter: Free and user-friendly online tool for easy file conversion. Supports formats for images, audio, and videos for unlimited times. Made with Next.js, Tailwind CSS, FFmpeg & Shadcn-UI.</p>
 
                         </div>
+                        <div data-aos="fade-up"
+                            data-aos-offset="200"
+                            data-aos-delay="50"
+                            data-aos-duration="2000" className='col-span-1  rounded-md bg-gray-400/20 dark:bg-gray-300/10 px-4 py-4'>
+                            <h1 className=' font-semibold text-2xl flex flex-row justify-between'> IconForge | AI Icon Generator  <Button variant="outline"><Link href="https://www.iconforge.live" >View</Link></Button></h1>
+                            <p className='pt-2 dark:text-muted-foreground pb-4'>Created a SAAS website which can generate AI icons with the help of Dall-E API. It uses Stripe for payments and PrismaDB for database management.</p>
+
+                        </div>
 
                     </div>
                     <div>
